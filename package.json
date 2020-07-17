@@ -21,11 +21,15 @@
   },
   "homepage": "https://github.com/LeftyDaniels/ProjectTemplate#readme",
   "devDependencies": {
+    "@types/react": "^16.9.32",
+    "@types/react-dom": "^16.9.6",
     "@typescript-eslint/eslint-plugin": "^2.24.0",
     "@typescript-eslint/parser": "^2.24.0",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.1",
     "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^3.0.0",
     "html-webpack-plugin": "^4.0.4",
     "prettier": "^2.0.1",
     "ts-loader": "^6.2.2",
@@ -36,5 +40,9 @@
   },
   "eslintConfig": {
     "extends": "./.eslintrc.js"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }

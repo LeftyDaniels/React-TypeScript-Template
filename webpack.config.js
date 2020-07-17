@@ -9,7 +9,7 @@ module.exports = {
     open: true,
   },
   devtool: 'inline-source-map',
-  entry: './index.ts',
+  entry: './index.tsx',
   mode: 'development',
   module: {
     rules: [
